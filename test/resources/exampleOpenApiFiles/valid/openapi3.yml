@@ -120,6 +120,25 @@ paths:
             application/json:
               schema:
                 type: object
+  /test/header/application/json/and/responseBody/boolean:
+    get:
+      responses:
+        200:
+          description: Response header is application/json, and response body is a boolean.
+          content:
+            application/json:
+              schema:
+                type: boolean
+  /test/header/application/json/and/responseBody/null:
+    get:
+      responses:
+        200:
+          description: Response header is application/json, and response body is a boolean.
+          content:
+            application/json:
+              schema:
+                type: object
+                nullable: true
   /test/header/text/html:
     get:
       responses:
