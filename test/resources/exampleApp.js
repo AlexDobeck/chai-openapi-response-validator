@@ -15,7 +15,7 @@ app.get('/test/header/application/json/and/responseBody/boolean', (req, res) =>
   res.json(false)
 );
 
-app.get('/test/header/application/json/and/responseBody/null', (req, res) =>
+app.get('/test/header/application/json/and/responseBody/nullable', (req, res) =>
   res.json(null)
 );
 
