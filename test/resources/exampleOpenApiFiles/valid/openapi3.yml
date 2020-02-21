@@ -129,11 +129,11 @@ paths:
             application/json:
               schema:
                 type: boolean
-  /test/header/application/json/and/responseBody/null:
+  /test/header/application/json/and/responseBody/nullable:
     get:
       responses:
         200:
-          description: Response header is application/json, and response body is a boolean.
+          description: Response header is application/json, and response body is nullable.
           content:
             application/json:
               schema:
